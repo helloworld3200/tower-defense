@@ -12,5 +12,6 @@ while running:
         if event.type == pygame.QUIT:
             running = False
     pygame.draw.rect(root, (169, 169, 169), 0, root.get_size()[1], 3000, 200)
+    
 pygame.quit()
 pygame.display.quit()
